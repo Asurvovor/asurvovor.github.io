@@ -1,2 +1,0 @@
-# magicReact
-Created with CodeSandbox
