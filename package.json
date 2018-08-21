@@ -1,7 +1,7 @@
 {
-  "name": "new",
+  "name": "magic-react",
   "version": "1.0.0",
-  "description": "",
+  "description": "react demo from codesandbox",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
