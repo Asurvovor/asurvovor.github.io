@@ -4,16 +4,19 @@
     "description": "react demo from codesandbox",
     "keywords": [],
     "main": "src/index.js",
+    "homepage": "https://asurvovor.github.io/magicReact",
     "dependencies": {
         "react": "16.3.2",
         "react-dom": "16.3.2",
         "react-scripts": "1.1.4"
     },
-    "devDependencies": {},
+    "devDependencies": {
+        "gh-pages": "^2.0.1"
+    },
     "scripts": {
         "start": "PORT=6969 react-scripts start",
         "build": "react-scripts build",
-        "test": "react-scripts test --env=jsdom",
-        "eject": "react-scripts eject"
+        "predeploy": "yarn run build",
+        "deploy": "gh-pages -d build"
     }
 }
