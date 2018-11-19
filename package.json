@@ -14,6 +14,7 @@
         "gh-pages": "^2.0.1"
     },
     "scripts": {
+        "start-win": "set PORT=6969 && react-scripts start",
         "start": "PORT=6969 react-scripts start",
         "build": "react-scripts build",
         "predeploy": "yarn run build",
