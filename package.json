@@ -2,7 +2,7 @@
     "name": "magic-react",
     "version": "1.0.0",
     "description": "react demo from codesandbox",
-    "keywords": [],
+    "keywords": ["react"],
     "main": "src/index.js",
     "homepage": "https://asurvovor.github.io/magicReact",
     "dependencies": {
